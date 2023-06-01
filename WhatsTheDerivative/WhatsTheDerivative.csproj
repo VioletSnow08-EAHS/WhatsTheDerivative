@@ -7,4 +7,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="MathParse" Version="1.0.0" />
+      <PackageReference Include="MathParser.org-mXparser" Version="5.2.1" />
+    </ItemGroup>
+
 </Project>
