@@ -15,3 +15,6 @@ var xInput = new Argument("x = "+ Console.ReadLine());
 var derivative = new Expression(einput, xInput);
 
 mXparser.consolePrintln($"The Derivative is: {derivative.calculate()}");
+
+Console.WriteLine("Press any key to exit.");  
+Console.ReadKey();
